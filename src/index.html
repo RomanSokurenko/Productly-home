@@ -3,46 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <title>IceCream</title>
+    <title>The Design Thinking</title>
   </head>
   <body>
     <header id="Home">
       <!-- nav -->
-      <include src="./partials/nav.html"></include>
+       <include src="./partials/header.html"></include>
 
-      <!-- hero -->
-      <include src="./partials/hero.html"></include>
+     
     </header>
 
     <main>
-      <!-- products -->
-      <!-- <section class="products-section" id="Our products"> -->
-        <include src="./partials/products.html"></include>
+      <!-- hero -->
+
+       <section  id="hero">
+        <include src="./partials/hero.html"></include> 
+       </section>
+     
+     
+      <!-- tools -->
+        
+      <section id="tools">
+        <include src="./partials/tools.html"></include> 
       </section>
       
-      <!-- preparation -->
-      <section id="How it’s made?">
-        <!-- <include src="./partials/preparation.html"></include> -->
+      <!-- profession -->
+      <footer id="profession">
+        <include src="./partials/profession.html"></include>
       </section>
 
-      <!-- comments -->
-      <section>
-        <!-- <include src="./partials/comments.html"></include> -->
+      <!-- carousel-->
+      <section  id="carousel">
+        <include src="./partials/carousel.html"></include>
       </section>
 
-      <!-- location -->
-      <section id="About us">
-        <!-- <include src="./partials/location.html"></include> -->
+      <!-- marketing -->
+      <section id="marketing">
+        <include src="./partials/marketing.html"></include>
       </section>
     </main>
 
     <!-- footer -->
     <footer class="footer" id="Contact">
-      <!-- <include src="./partials/footer.html"></include> -->
+       <include src="./partials/footer.html"></include>
     </footer>
     <script src="./index.js"></script>
     <script src="../js/menu.js"></script>

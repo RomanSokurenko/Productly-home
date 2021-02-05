@@ -3,4 +3,9 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+.container {
+  width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+}
 /*# sourceMappingURL=main.css.map */
