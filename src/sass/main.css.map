@@ -3,7 +3,13 @@
     "mappings": ";AAAA;;;GAGG;ACHH,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,MAAM;EACb,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;CAClB",
     "sources": [
         "main.scss",
-        "general/_common.scss"
+        "general/_common.scss",
+        "components/_haeder.scss",
+        "components/_hero.scss",
+        "components/_tools.scss",
+        "components/_carousel.scss",
+        "components/_profession.scss",
+        "components/_footer.scss"
     ],
     "names": [],
     "file": "main.css"
